@@ -1,0 +1,60 @@
+body{
+    background-image: url(/src/images/img1.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.title{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 40rem;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.card{
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1rem;
+    padding: 5rem 2.5rem;
+    border: 1px solid transparent;
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+
+    border-top-color: rgba(255, 255, 255, 0.5);
+    border-left-color: rgba(255, 255, 255, 0.5);
+    border-right-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.cb1{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.cb2{
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3));
+
+    color: black;
+}
+
+.card-number{
+    color: rgba(255, 255, 255, 0.08);
+    font-size: 8rem;
+    z-index: -1;
+    position: absolute;
+    top: -1rem;
+    right: 2.5rem;
+}
+
+.btn{
+    border-radius: 2rem;
+}
+
+.btn:hover{
+    background-color:#D2FF72 ;
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.3);
+    border: none;
+}
